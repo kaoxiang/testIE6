@@ -1,3 +1,4 @@
+/*
 html,body{
 	margin: 0;
 	padding: 0;
@@ -8,6 +9,7 @@ html,body{
 	width: 100%;
 	color:#222222;
 }
+*/
 
 .smallslider{
 	border-top: 2px solid #e5e5e5;
@@ -19,7 +21,7 @@ html,body{
 	width:800px;
 	left:250px;
 	top:440px;
-	background-image: url("../images/ct1-title.png");
+	background-image: url("../imgs/ct1-title.png");
     background-repeat: repeat;
     background-size: auto 100%;
 	padding:15px;
@@ -32,7 +34,7 @@ html,body{
 .slide .slide_title_content p{
 	font-size:16px;
 }
-
+/*
 body.hidden{
 	overflow: hidden;
 }
@@ -42,6 +44,7 @@ body.hidden{
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
+*/
 
 h1 {
 	font-family: Helvetica, Arial, Verdana;
