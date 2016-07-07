@@ -11,12 +11,8 @@ html,body{
 }
 */
 
-.smallslider{
-	border-top: 2px solid #e5e5e5;
-	padding-top:10px;
-}
 
-.slide .slide_title_content{
+.slide .smallsliderhtml{
 	position: absolute;
 	width:800px;
 	left:250px;
@@ -27,11 +23,11 @@ html,body{
 	padding:15px;
 }
 
-.slide .slide_title_content div{
+.slide .smallsliderhtml div{
 	font-size:24px;
 }
 
-.slide .slide_title_content p{
+.slide .smallsliderhtml p{
 	font-size:16px;
 }
 /*
@@ -138,17 +134,22 @@ header#top #logo{
 	position: absolute;
 }
 
-.news-row .slider2 {
-    height: 150px;
-    overflow: hidden;
-    position: relative;
-    width: 350px;
+
+.smallsliders{
+	border-top: 2px solid #e5e5e5;
+	padding-top:15px;
+}
+
+.smallsliders .sliderbox{
+	height: 141px;
+  overflow: hidden;
+  position: relative;
+  width: 370px;
 	border:0px;
-	margin:0px;
 	padding:0px;
 }
 
-.news-row .slider2 .slide2 {
+.smallsliders .sliderbox .smallslider{
     float: left;
     height: 100%;
     left: 0;
@@ -157,26 +158,26 @@ header#top #logo{
     width: 100%;
 }
 
-.news-row #slideposition2 {
+.smallsliders .smallslideroptions{
     left: 155px;
     position: absolute;
-    top: 190px;
+    top: 185px;
     width: 100px;
 }
 
-#slideposition2 ul {
+.smallsliders .smallslideroptions ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 100px;
 }
 
-#slideposition2 ul li.indicator {
+.smallsliders .smallslideroptions ul li.indicator {
    display:inline-block; _zoom:1;*display:inline;
-	height: 4px;
-	width: 4px;
-	background: #222;
-	margin: 0px 4px;
+	height: 6px;
+	width: 6px;
+	background: #CCC;
+	margin: 0px 6px;
 	padding: 0;
 	-webkit-border-radius: 999px;
 	-moz-border-radius: 999px;
@@ -185,42 +186,45 @@ header#top #logo{
 	cursor: pointer;
 }
 
-#slideposition2 ul li.indicator.active {
-    background: #ccc none repeat scroll 0 0;
+.smallsliders .smallslideroptions ul li.indicator.active {
+    background: #0e419c none repeat scroll 0 0;
 }
 
-.slide2 .slide_title_content{
-	font-size: 16px;
-    height: 110px;
-    left: 160px;
-    position: absolute;
-    width: 180px;
+.smallsliders .smallslider .smallsliderhtml{
+	font-size: 15px;
+  height: 130px;
+  left: 184px;
+  position: absolute;
+  width: 181px;
 }
-.slide2 .slide_title_content .slide2_title{
+.smallslider .smallsliderhtml .smallslidertitle a{
 	font-size:16px;
+	line-height:24px;
 	color:#444;
+  text-overflow: ellipsis;	
 }
 
-.slide2 .slide_title_content .slide2_content{
+.smallslider .smallsliderhtml p.smallslidercontent{
 	color: #999;
-    font-size: 12px;
-    height: 84px;
-    overflow: hidden;
+  font-size: 12px;	
+  line-height: 18px;
+  text-overflow: ellipsis;
 }
-.slide2_title{
+
+.smallslider .smallsliderhtml .smallslidertitle{
 	height:50px;
 	overflow:hidden;
 }
 
-.slide2_content{
-	height:70px;
+.smallslider .smallsliderhtml .smallslidercontent{
+	height:75px;
 	overflow:hidden;
 }
 .slide2_time{
 	text-align:right;
 }
 
-.slide2 .slide_title_content .slide2_time{
+.smallslider .smallsliderhtml .slide2_time{
 	color: #999;
     font-size: 12px;
     position: absolute;
@@ -229,13 +233,14 @@ header#top #logo{
     width: 80px;
 }
 
-.slider2 .backstretch img{
-	height: 140px !important;
-    left: -10px !important;
-    top: 0 !important;
-    width: 150px !important;
+.smallslider .backstretch img{
+	height: 120px !important;
+  left: -10px !important;
+  top: 0 !important;
+  width: 180px !important;
 }
 
+/*
 .news-row .slider3 {
     height: 150px;
     overflow: hidden;
@@ -287,26 +292,26 @@ header#top #logo{
     background: #ccc none repeat scroll 0 0;
 }
 
-.slide3 .slide_title_content{
+.slide3 .smallsliderhtml{
 	font-size: 16px;
     height: 110px;
     left: 160px;
     position: absolute;
     width: 180px;
 }
-.slide3 .slide_title_content .slide3_title{
+.slide3 .smallsliderhtml .slide3_title{
 	font-size:16px;
 	color:#444;
 }
 
-.slide3 .slide_title_content .slide3_content{
+.slide3 .smallsliderhtml .slide3_content{
 	color: #999;
     font-size: 12px;
     height: 84px;
     overflow: hidden;
 }
 
-.slide3 .slide_title_content .slide3_time{
+.slide3 .smallsliderhtml .slide3_time{
 	color: #999;
     font-size: 12px;
     position: absolute;
@@ -334,7 +339,7 @@ header#top #logo{
 .slide3_time{
 	text-align:right;
 }
-
+*/
 .pageblock#fullscreen .slider .slide .slidecontent{
 	position: absolute;
 	top: 50%;

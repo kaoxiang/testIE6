@@ -70,7 +70,7 @@
             // Place the slideTracker after the container if enabled in the options
             if(options.slideTracker){
                 // Add the slideposition div and add the indicators
-                $(options.slidesContainer).after("<div id='"+ options.slideTrackerID +"'><ul></ul></div>");
+                $(options.slidesContainer).after("<div id='"+ options.slideTrackerID +"' class='smallslideroptions'><ul></ul></div>");
                 for(var x = 0; x < obj.totalSlides;x++){
                     $('#'+ options.slideTrackerID +' ul').append('<li class="indicator" data-index="'+x+'"></li>');
                 }

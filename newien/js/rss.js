@@ -40,7 +40,7 @@
 	// /fudannews/rss/?catid=12
     $.get("../xml/content3.xml", function(data){
     	var target=$("#fd-news1 .newslist").first();
-    	doAppend(target,data,5,3);
+    	doAppend(target,data,6,3);
     //	doAppend(target,data,1,4);
     	
     });
@@ -50,7 +50,7 @@
 	// /fudannews/rss/?catid=31
     $.get("../xml/content4.xml", function(data){
     	var target=$("#fd-news2 .newslist").first();
-    	doAppend(target,data,9,0);
+    	doAppend(target,data,10,0);
     	//doAppend(target,data,1,1);
     	
     });
@@ -60,7 +60,7 @@
 	// /fudannews/rss/?catid=44
     $.get("../xml/content5.xml", function(data){
     	var target=$("#fd-news4 .newslist").first();
-    	doAppend(target,data,4,5);
+    	doAppend(target,data,6,5);
     	//doAppend(target,data,1,6);
     	
     });
@@ -70,7 +70,7 @@
 	// /fudannews/rss/?catid=68
     $.get("../xml/content6.xml", function(data){
     	var target=$("#fd-news5 .newslist").first();
-    	doAppend(target,data,8,0);
+    	doAppend(target,data,10,0);
     	//doAppend(target,data,1,1);
     	
     }); 
@@ -80,7 +80,7 @@
    // /fudannews/rss/?catid=20000
     $.get("../xml/content7.xml", function(data){
     	var target=$("#fd-news6 .newslist").first();
-    	doAppend(target,data,8,0);
+    	doAppend(target,data,10,0);
     	//doAppend(target,data,1,1);
     	
     });
@@ -197,14 +197,15 @@ function modifyPicNode(index, ele, target) {
 	 
 	 if($(t1).hasClass("slide2")){
 		 $(t1).find("img").attr("src", pictureUrl);
-		 $(t1).find(".slide2_title").text(title);
+		 $(t1).find(".smallslidertitle a").text(title);
 		 $(t1).find("a").attr("href", link);
-		 $(t1).find(".slide2_content").text(description);
-		 $(t1).find(".slide2_time").text(time); 
+		 $(t1).find(".smallslidercontent").text(description);
+//		 $(t1).find(".slide2_time").text(time); 
 	 }
+	 
 	 else if($(t1).hasClass("slide3")){
 		 $(t1).find("img").attr("src", pictureUrl);
-		 $(t1).find(".slide3_title").text(title);
+		 $(t1).find(".slide3_title a").text(title);
 		 $(t1).find("a").attr("href", link);
 		 $(t1).find(".slide3_content").text(description);
 		 $(t1).find(".slide3_time").text(time); 

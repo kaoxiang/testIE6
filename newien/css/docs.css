@@ -18,6 +18,29 @@
  * $hack :ie 6 _  \ ie7 *+ \  ie6,ie7 *  \  ie7,firefox !important ie9, \9
 */
 
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0 none;
+  font-family: inherit;
+  font-feature-settings: inherit;
+  font-kerning: inherit;
+  font-language-override: inherit;
+  font-size: 100%;
+  font-size-adjust: inherit;
+  font-stretch: inherit;
+  font-style: inherit;
+  font-synthesis: inherit;
+  font-variant: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a, a:hover{
+	text-decoration:none;
+	color:#0e419c;
+}
+
 .title {
     color: white;
     font-size: 64px;
@@ -657,6 +680,10 @@ ul.unstyled, ol.unstyled,ul.unstyled li {
 	letter-spacing:0px;
 }
 
+.fdnews a:hover{
+	color:#0e419c;
+}
+
 .fdnews .newssliders{
 	display: block;
 	height:164px;
@@ -668,7 +695,7 @@ ul.unstyled, ol.unstyled,ul.unstyled li {
 .fdnews .newslist{
 	margin-left:0;
 	padding-top:15px;
-	height: 407px;
+	height: 390px;
 /*	width: 340px;*/
 	border-bottom: 2px solid #e5e5e5;
 	border-top: 2px solid #e5e5e5;
@@ -676,24 +703,22 @@ ul.unstyled, ol.unstyled,ul.unstyled li {
 
 #fd-news1 .newslist, #fd-news4 .newslist{
 	border-top: none;
-	height:228px;
+	height:234px;
 }
 
 
 .fdnews .newslist li{
 	margin-bottom: 15px;
 	padding: 0;
-	height: 30px;
-	line-height:30px;
+	height: 24px;
 	overflow: hidden;
 }
 
 .fdnews .newslist li  a{
 	color: #444;
 	font-size: 14px;
-	height:14px;
-	line-height:14px;
-	padding: 8px 0;
+	height:18px;
+	line-height:18px;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
@@ -706,9 +731,8 @@ ul.unstyled, ol.unstyled,ul.unstyled li {
 	display:block-inline;
 	float:right;	
 	font-size: 10px;
-	line-height:12px;
-	height:14px;
-	margin: 10px 0 8px 0;	
+	line-height:18px;
+	height:18px;
 	padding: 0;	
 	width:15%;
 	color:#999999;
@@ -764,4 +788,29 @@ ul.unstyled, ol.unstyled,ul.unstyled li {
 	width:220px;
 	height:88px;
 	float:right;
+}
+
+.fdnews .eventslist {
+  border-bottom: 2px solid #e5e5e5;
+  border-top: 2px solid #e5e5e5;
+  height: 407px;
+  margin-left: 0;
+  padding-top: 15px;
+}
+
+.event h4{
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: 0;
+	margin-bottom: 0;
+	text-transform: none;	
+	color:#333333;	
+}
+
+.event h4 a {
+  color: #0e419c;
+  font-family: "Helvetica Neue","Hiragino Sans GB","Verdana","Microsoft YaHei","Arial","sans-serif";
+  font-size: 15px;
+  font-weight: bold;
+  line-height:10px;
 }
