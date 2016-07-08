@@ -195,14 +195,14 @@ function modifyPicNode(index, ele, target) {
 	 
 	 var t1 = target[index];
 	 
-	 if($(t1).hasClass("slide2")){
+	 if($(t1).hasClass("smallslider")){
 		 $(t1).find("img").attr("src", pictureUrl);
 		 $(t1).find(".smallslidertitle a").text(title);
 		 $(t1).find("a").attr("href", link);
 		 $(t1).find(".smallslidercontent").text(description);
 //		 $(t1).find(".slide2_time").text(time); 
 	 }
-	 
+/*	 
 	 else if($(t1).hasClass("slide3")){
 		 $(t1).find("img").attr("src", pictureUrl);
 		 $(t1).find(".slide3_title a").text(title);
@@ -210,7 +210,7 @@ function modifyPicNode(index, ele, target) {
 		 $(t1).find(".slide3_content").text(description);
 		 $(t1).find(".slide3_time").text(time); 
 	 }
-	 
+*/	 
 	
 	 
 	 /*

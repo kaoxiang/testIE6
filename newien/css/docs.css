@@ -36,6 +36,18 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
 }
 
+ 
+.clearfix:after{ 
+visibility: hidden; 
+display: block; 
+font-size: 0; 
+content: "."; 
+clear: both; 
+height: 0; 
+} 
+* html .clearfix{zoom: 1;} 
+*:first-child + html .clearfix{zoom: 1;} 
+
 a, a:hover{
 	text-decoration:none;
 	color:#0e419c;
@@ -752,14 +764,17 @@ ul.unstyled, ol.unstyled,ul.unstyled li {
 .event{
 	width:370px;
 	height:116px;
-	padding-top:20px;
+	padding-bottom:15px;
+	overflow:hidden; 
+	position:relative;
 }
 
 .event .eventdate{
 	width:90px;
 	height:90px;
-	float:left;
 	background: #e9ebf0 none repeat scroll 0 0;
+	position:absolute;
+	left:15px;
 }
 
 .event .eventdate span.eventday{
@@ -767,9 +782,9 @@ ul.unstyled, ol.unstyled,ul.unstyled li {
 	color: #0e419c;
 	display:block;
 	width:100%;
-	height:48px;
 	text-align:center;
     font-size: 40px;
+	padding-top:14px;
 	margin:0 auto;	
 }
 
@@ -777,40 +792,49 @@ ul.unstyled, ol.unstyled,ul.unstyled li {
 	color: #0e419c;
 	display:block;
 	width:100%;
-	height:42px;
 	text-align:center;
     font-size: 14px;
 	margin:0 auto;
-	padding-top:6px;
 }
 
 .event .eventcontent{
-	width:220px;
-	height:88px;
-	float:right;
+	width:230px;
+	height:90px;
+	position:absolute;
+	left:140px;
 }
 
 .fdnews .eventslist {
   border-bottom: 2px solid #e5e5e5;
   border-top: 2px solid #e5e5e5;
-  height: 407px;
+  height: 390px;
   margin-left: 0;
   padding-top: 15px;
 }
 
-.event h4{
-	font-size: 17px;
-	font-weight: 400;
+.event .eventcontent h4{
 	letter-spacing: 0;
 	margin-bottom: 0;
 	text-transform: none;	
 	color:#333333;	
 }
 
-.event h4 a {
+.event .eventcontent h4 a {
   color: #0e419c;
   font-family: "Helvetica Neue","Hiragino Sans GB","Verdana","Microsoft YaHei","Arial","sans-serif";
   font-size: 15px;
   font-weight: bold;
-  line-height:10px;
+  line-height:18px;
+}
+
+.event .eventcontent span{
+	border-bottom: 1px solid #f8f8f8;
+	overflow: hidden;
+	text-overflow: clip;
+	white-space: nowrap;
+	line-height:20px;
+	font-size:12px;
+	display:inline-block;
+	width:370px;
+	height:20px;
 }

@@ -234,8 +234,40 @@ label{ display:block; font-size:14px; margin:10px 0 0 0; }
 .row{height:auto; overflow:hidden; clear:both; margin-left:-20px;}
 .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12 , .aside, .main{display: inline; float: left; margin-left: 20px; min-height: 1px;}
 
+/* custom default 1200*/
+
+	.row{ margin-left: -30px;}
+	.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12 , .aside, .main{margin-left: 30px; }
+	
+	.wrapper, .w1200 .wrapper{ width:1170px ;}
+	.col1{ width: 70px;} 
+	.col2, .aside{ width: 170px; } 
+	.col3{ width: 270px; } 
+	.col4{ width: 370px; } 
+	.col5{ width: 470px; }
+	.col6{ width: 570px; } 
+	.col7{ width: 670px; } 
+	.col8{ width: 770px; } 
+	.col9{ width: 870px; } 
+	.col10, .main{ width: 970px; } 
+	.col11{ width: 1070px; } 
+	.col12{ width: 1170px; }
+	
+	.fill1{ margin-left: 130px;}
+	.fill2{ margin-left: 230px;}
+	.fill3{ margin-left: 330px;}
+	.fill4{ margin-left: 430px;}
+	.fill5{ margin-left: 530px;}
+	.fill6{ margin-left: 630px;}
+	.fill7{ margin-left: 730px;}
+	.fill8{ margin-left: 830px;}
+	.fill9{ margin-left: 930px;}
+	.fill10{ margin-left: 1030px;}
+	.fill11{ margin-left: 1130px;}
+
 
  /*格子系统 960*/
+ /*
 .wrapper{
 	 width:940px;
 }
@@ -264,9 +296,10 @@ label{ display:block; font-size:14px; margin:10px 0 0 0; }
 .fill9{ margin-left: 740px;}
 .fill10{ margin-left: 820px;}
 .fill11{ margin-left: 900px;}
-
+*/
 
 /*格子系统 1200*/
+/*
 @media(min-width:1200px) {
 	.row{ margin-left: -30px;}
 	.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12 , .aside, .main{margin-left: 30px; }
@@ -298,9 +331,10 @@ label{ display:block; font-size:14px; margin:10px 0 0 0; }
 	.fill11{ margin-left: 1130px;}
 } 
 
-
+*/
 
 /*格子系统768*/
+/*
 @media(min-width:768px) and (max-width:979px) {
 	.wrapper{ width:748px ; }
 	.col1{ width: 44px;} 
@@ -329,10 +363,11 @@ label{ display:block; font-size:14px; margin:10px 0 0 0; }
 	.fill11{ margin-left: 724px;}
 } 
 
-
+*/
 	
 /*手机端*/
-@media(max-width:767px) {
+/*@media(max-width:767px) {*/
+@media(max-width:1119px) {
 	.wrapper{ width:auto; padding:0 20px; position:static; margin:0 20px;}
 	.row{ margin:0;}
 	.col1, 
