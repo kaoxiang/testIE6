@@ -12,22 +12,25 @@ html,body{
 */
 
 
-.slide .smallsliderhtml{
-	position: absolute;
-	width:800px;
-	left:250px;
-	top:440px;
-	background-image: url("../imgs/ct1-title.png");
-    background-repeat: repeat;
-    background-size: auto 100%;
-	padding:15px;
+
+.slide .slide_title_content {
+  background-image: url("../imgs/ct1-title.png");
+  background-repeat: repeat;
+  background-size: auto 100%;
+  left: 50%;
+  margin-left:-600px;
+  padding: 15px;
+  position: absolute;
+  top: 460px;
+  width: 760px;
 }
 
-.slide .smallsliderhtml div{
+.slide .slide_title_content h2 a{
+	color:#FFFFFF;
 	font-size:24px;
 }
 
-.slide .smallsliderhtml p{
+.slide .slide_title_content p{
 	font-size:16px;
 }
 /*
@@ -415,7 +418,7 @@ header#top #logo{
 
 .pageblock#fullscreen #slideposition{
 	position: absolute;
-	top: 600px;
+	top: 610px;
 	left: 50%;
 	width: 100px;
 }

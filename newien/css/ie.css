@@ -1,4 +1,9 @@
 
+html.ie6 .ct1-menu1{
+	width:60px;
+	height:360px;
+}
+
 
 html.ie6 .top-header{
 	background-color:#0E419C;
@@ -9,54 +14,8 @@ html.ie6 #bar1 #menu li dl dt a{
 	padding-top:24px;
 }
 
-
-html.ie6 #fd-news1 .newsslider, html.ie6 #fd-news4 .newsslider{
-	width:370px;
-	height:181px;
-	overflow:hidden;
-}
-
-html.ie6 #fd-news1 .newsslider .newssliderimg, html.ie6 #fd-news4 .newsslider .newssliderimg{
-	width:150px;
-	height:181px;
-	overflow:hidden;	
-}
-html.ie6 #fd-news1 .newsslider .newssliderimg img, html.ie6 #fd-news4 .newsslider .newssliderimg img{
-	width:150px;
-}
-html.ie6 #fd-news1 .newsslider .newsslidertext, html.ie6 #fd-news4.newsslider .newsslidertext{
-	width:145px;
-	height:181px;
-	overflow:hidden;		
-}
-
-html.ie6 ol#controls li a{
-	text-indent:0;
-	background-image: none;
-	background-color:#FFFFFF;
-	}
-	
-html.ie6 ol#controls li.scurrent a{
-	background-image: none;
-	background-color:#666666;
-	}
-
-html.ie6 ol#news-controls1 li a, html.ie6 ol#news-controls2 li a{
-	background-image: none;
-	background-color:#999999;
-	}
-	
-html.ie6 ol#news-controls1 li.scurrent a, html.ie6 ol#news-controls2 li.scurrent a{
-	background-image: none;
-	background-color:#0E419C;
-	}	
-
-html.ie6  .fdnews .newssliders, html.ie7  .fdnews .newssliders{
-	height:181px;
-}
-
 html.ie6 .fdnews .newslist{
-	height:418px;
+	height:390px;
 }
 
 html.ie7 .fdnews .newslist{
@@ -72,5 +31,4 @@ html.ie6 #fd-news1 .newslist, html.ie7#fd-news1 .newslist, html.ie6 #fd-news4 .n
 .fdnews .more{
 	height:32px;
 }
-	
 	
