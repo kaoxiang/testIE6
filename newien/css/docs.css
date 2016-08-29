@@ -200,7 +200,7 @@ ul, ol, li{
     margin-top: 1.2em;
 }
 .footer{
-	padding: 30px; text-align: center; line-height: 2; font-family: arial;
+	padding: 20px 0 40px 0; text-align: center; line-height: 2; font-family: arial;
 }
 
 ul.unstyled, ol.unstyled,ul.unstyled li {
@@ -339,7 +339,7 @@ ul.unstyled, ol.unstyled,ul.unstyled li {
 
 #menu{
  margin:0;
- padding:0;
+ padding:0 2px;
  width:910px;
  list-style-type:none;
  font:14px solid "Microsoft YaHei";
@@ -349,9 +349,7 @@ ul.unstyled, ol.unstyled,ul.unstyled li {
  border:0;
  float:left;
  width:151px;
- padding:0;
- margin-right:-4px;
-	
+ padding:0;	
 }
 #menu tr{
  border:0;
@@ -720,10 +718,12 @@ ul.unstyled, ol.unstyled,ul.unstyled li {
 
 
 .fdnews .newslist li{
-	margin-bottom: 15px;
-	padding: 0;
-	height: 24px;
+	padding-top: 3px;
+	width:370px;
+	height: 36px;
 	overflow: hidden;
+	display:inline-block;
+	float:left;
 }
 
 .fdnews .newslist li  a{
@@ -754,7 +754,7 @@ ul.unstyled, ol.unstyled,ul.unstyled li {
 .fdnews .more{
 	display:block;
 	width:80px;
-	height:24px;
+	font-size:14px;
 	float:left;
 	padding-top:8px;
 	color:#555555;
@@ -763,10 +763,12 @@ ul.unstyled, ol.unstyled,ul.unstyled li {
 
 .event{
 	width:370px;
-	height:116px;
+	height:105px;
+	margin-top:15px;
 	padding-bottom:15px;
 	overflow:hidden; 
 	position:relative;
+	border-bottom: 1px dashed #d7d7d7;	
 }
 
 .event .eventdate{
@@ -807,9 +809,8 @@ ul.unstyled, ol.unstyled,ul.unstyled li {
 .fdnews .eventslist {
   border-bottom: 2px solid #e5e5e5;
   border-top: 2px solid #e5e5e5;
-  height: 390px;
+  height: 405px;
   margin-left: 0;
-  padding-top: 15px;
 }
 
 .event .eventcontent h4{
@@ -837,4 +838,105 @@ ul.unstyled, ol.unstyled,ul.unstyled li {
 	display:inline-block;
 	width:370px;
 	height:20px;
+}
+
+#fd-gallery{
+	margin:50px 0;
+}
+
+#fd-gallery img{
+	vertical-align: bottom;
+}
+
+#fd-gallery .col3, #fd-gallery .col12{
+	position:relative;
+}
+
+#fd-gallery .desc-container {
+  bottom: 15px;
+  left: 20px;
+  position: absolute;
+  display:block;
+}
+
+#fd-gallery .time {
+  color: #FFFFFF;
+  display: block;
+  font-family: "Microsoft YaHei";
+  font-size: 180%;
+  font-weight: bold;
+}
+
+#fd-gallery .desc {
+  color: #FFFFFF;
+  display: block;
+  font-family: "Microsoft YaHei";
+  font-size: 120%;
+}
+
+#fd-gallery .animated{
+	display:none;
+	background: rgba(0, 0, 0, 0) url("../imgs/cover.png") repeat scroll 0 0 / 100% 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width:100%;
+	height:100%;
+	z-index: 99999;
+	text-align:center;
+}
+
+#fd-gallery .col3 .animated{
+	padding-top:30%;
+}
+
+#fd-gallery .col3 .col12 .animated{
+	padding-top:5%;
+}
+
+#fd-gallery .row, #fd-gallery .col3, #fd-gallery .col12{
+	margin:0;
+	padding:0;
+}
+
+#fd-gallery .row-flow {
+  width: 100%;
+}
+
+#fd-gallery .row-flow .col3 {
+  width: 25%;
+}
+
+#fd-gallery .row-flow .col12 {
+  width: 100%;
+}
+
+#fd-foot{
+	background: #222 none repeat scroll 0 0;
+	border-bottom: 1px solid #efefef;
+	border-top: 1px solid #efefef;
+	color:#FFFFFF;	
+	text-align:left;
+	font-size:14px;
+}
+
+#fd-foot .wrapper{
+	padding-left:30px;
+	padding-right:30px;
+}
+
+#fd-foot h4, #fd-foot a{
+	text-align:left;
+	color:#FFFFFF;
+}
+#fd-foot h4{
+	font-size:18px;
+	height:24px;
+	padding-bottom:25px;
+}
+
+.fd-contact{
+	color:#999999;
+	padding-bottom:40px;
+	border-top:solid #313131 1px;
 }

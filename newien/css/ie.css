@@ -14,21 +14,14 @@ html.ie6 #bar1 #menu li dl dt a{
 	padding-top:24px;
 }
 
-html.ie6 .fdnews .newslist{
-	height:390px;
+html.ie6 .smallslidercontent{
+	margin:2px 0;
+	vertical-align:middle;	
 }
 
-html.ie7 .fdnews .newslist{
-	height:433px;
-}
-html.ie6 #fd-news1 .newslist, html.ie7#fd-news1 .newslist, html.ie6 #fd-news4 .newslist, html.ie7#fd-news4 .newslist {
-	height:239px;
-}
-.fdnews .newslist li  a{
-	height:30px;
+html.ie6 .slide .slide_title_content{
+	bottom:60px;
 }
 
-.fdnews .more{
-	height:32px;
-}
+
 	

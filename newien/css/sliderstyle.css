@@ -14,15 +14,16 @@ html,body{
 
 
 .slide .slide_title_content {
-  background-image: url("../imgs/ct1-title.png");
-  background-repeat: repeat;
-  background-size: auto 100%;
-  left: 50%;
-  margin-left:-600px;
-  padding: 15px;
-  position: absolute;
-  top: 460px;
-  width: 760px;
+	background-image: url("../imgs/ct1-title.png");
+	background-repeat: repeat;
+	background-size: auto 100%;
+	left: 50%;
+	margin-left:-600px;
+	padding: 15px;
+	position: absolute;
+/*  top: 460px;*/
+	bottom:120px;
+	width: 760px;
 }
 
 .slide .slide_title_content h2 a{
@@ -220,7 +221,7 @@ header#top #logo{
 }
 
 .smallslider .smallsliderhtml .smallslidercontent{
-	height:75px;
+	height:74px;
 	overflow:hidden;
 }
 .slide2_time{
@@ -418,9 +419,11 @@ header#top #logo{
 
 .pageblock#fullscreen #slideposition{
 	position: absolute;
-	top: 610px;
+/*	top: 610px;*/
+	bottom:10px;
 	left: 50%;
 	width: 100px;
+	margin-left:-44px;	
 }
 
 .pageblock#fullscreen #slideposition ul{
