@@ -23,5 +23,44 @@ html.ie6 .slide .slide_title_content{
 	bottom:60px;
 }
 
+html.ie6 .event .eventdate span.eventday, html.ie7 .event .eventdate span.eventday{{
+	height:47px;
+	line-height:47px;
+	overflow:hidden;
+}
+
+html.ie6 #fd-gallery .row-flow  .col3, html.ie7 #fd-gallery .row-flow  .col3{
+	width:24.95%;
+}
+
+html.ie6 #fd-gallery img{
+	width:100%;
+}
+
+#fd-wiki-special{
+	background:url("../imgs/div_background.png") repeat scroll 0 0;
+}
+
+html.ie6 #fd-wiki .taber .row .col8{
+	margin-left:10px;
+}
+
+html.ie6 #fd-wiki .taber .row .col8 .media{
+	margin-left:20px;
+}
+
+html.ie7 #fd-wiki .taber .media .media-right a h3{
+	width:100%;
+}
+
+html.ie7 #fd-wiki .taber .media .media-right p{
+	margin-right:20px;
+}
+
+html.ie7 #fd-video-media  .video-info a{
+	padding-bottom:0;
+}
+
+
 
 	

@@ -5,7 +5,7 @@
 	//复旦新闻视频部分
 	
 	// /fudannews/rss/?tagid=1
-	$.get("../xml/content1.xml", function(data){
+	$.get("xml/content1.xml", function(data){
 		
     	var target=$(".slide2");
     	doAppend(target,data,3,2);
@@ -18,7 +18,7 @@
 	//媒体视角视频部分
 	
 	// /fudannews/rss/?tagid=8
-	$.get("../xml/content2.xml", function(data){
+	$.get("xml/content2.xml", function(data){
   
 		var target=$(".slide3");
     	doAppend(target,data,3,2);
@@ -38,7 +38,7 @@
 	//复旦新闻
 	
 	// /fudannews/rss/?catid=12
-    $.get("../xml/content3.xml", function(data){
+    $.get("xml/content3.xml", function(data){
     	var target=$("#fd-news1 .newslist").first();
     	doAppend(target,data,6,3);
     //	doAppend(target,data,1,4);
@@ -48,7 +48,7 @@
     //综合新闻
 	
 	// /fudannews/rss/?catid=31
-    $.get("../xml/content4.xml", function(data){
+    $.get("xml/content4.xml", function(data){
     	var target=$("#fd-news2 .newslist").first();
     	doAppend(target,data,10,0);
     	//doAppend(target,data,1,1);
@@ -58,7 +58,7 @@
     //媒体视角
 	
 	// /fudannews/rss/?catid=44
-    $.get("../xml/content5.xml", function(data){
+    $.get("xml/content5.xml", function(data){
     	var target=$("#fd-news4 .newslist").first();
     	doAppend(target,data,6,5);
     	//doAppend(target,data,1,6);
@@ -68,7 +68,7 @@
     //科技动态
 	
 	// /fudannews/rss/?catid=68
-    $.get("../xml/content6.xml", function(data){
+    $.get("xml/content6.xml", function(data){
     	var target=$("#fd-news5 .newslist").first();
     	doAppend(target,data,10,0);
     	//doAppend(target,data,1,1);
@@ -78,7 +78,7 @@
    //重要通知
    
    // /fudannews/rss/?catid=20000
-    $.get("../xml/content7.xml", function(data){
+    $.get("xml/content7.xml", function(data){
     	var target=$("#fd-news6 .newslist").first();
     	doAppend(target,data,10,0);
     	//doAppend(target,data,1,1);

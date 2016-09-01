@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+
+<title>RSS2.0 - Fudan News</title>
+
+<link>http://news.fudan.edu.cn/rss/</link>
+
+<description>ONLY RSS Version 2.0 Supported</description>
+
+<language>zh-cn</language>
+</channel>
+</rss>

@@ -76,7 +76,7 @@ $(function(){
 			'display':'none'
 		});
 		$(an).css({
-			'display':'block',
+			'display':'block'
 		})
 	});
 	
@@ -87,12 +87,20 @@ $(function(){
 			'display':'block'
 		});
 		$(an).css({
-			'display':'none',
+			'display':'none'
 		})
-	})	
+	});
 
+//wiki	
 
-	
+    $(".taber .head a").click(function (e) {  
+      e.preventDefault();  
+    }); 
+/*	
+    $(".taber .head a").click(function () {  
+        return false; 
+    })	
+*/	
 })
 
 
