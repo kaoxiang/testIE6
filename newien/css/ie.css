@@ -37,8 +37,8 @@ html.ie6 #fd-gallery img{
 	width:100%;
 }
 
-#fd-wiki-special{
-	background:url("../imgs/div_background.png") repeat scroll 0 0;
+html.ie6 #fd-wiki-special, html.ie7 #fd-wiki-special{
+	background:url("../imgs/div_background.png") no-repeat scroll 0 0;
 }
 
 html.ie6 #fd-wiki .taber .row .col8{

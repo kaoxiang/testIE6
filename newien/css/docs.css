@@ -928,7 +928,7 @@ ul.unstyled, ol.unstyled,ul.unstyled li {
 }
 
 #fd-wiki-special{
-  background: rgba(0, 0, 0, 0) url("../imgs/div_background.png") repeat scroll 0 0;
+  background: url("../imgs/div_background.png") repeat scroll 0 0;
   padding:30px 0 50px 0;
   margin-top:50px;
 }
@@ -938,7 +938,9 @@ ul.unstyled, ol.unstyled,ul.unstyled li {
 }
 
 #fd-wiki  h1 {
-  background: transparent url("../imgs/icons_22.png") no-repeat scroll 0 -220px;
+  background:none;
+  /*
+  background: transparent url("../imgs/icons_22.png") no-repeat scroll 0 -220px;*/
 }
 
 #fd-wiki{
@@ -984,7 +986,7 @@ ul.unstyled, ol.unstyled,ul.unstyled li {
 	font-family: "Helvetica Neue","Hiragino Sans GB","Verdana","Microsoft YaHei","Arial","sans-serif";
 	font-size: 14px;
 	line-height: 1.5em;	
-	margin: 0 14px 18px 0;
+	margin: 0 18px 18px 0;
 	overflow:hidden;
 }
 

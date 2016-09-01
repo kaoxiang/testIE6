@@ -31,9 +31,9 @@ $(document).ready(function(){
         $(".slider2 .slide2[data-index='"+newSlide+"'] .slidecontent").fadeIn();
     });
 
-    $(".slide2#first").backstretch("imgs/onloading.gif");
-    $(".slide2#sec").backstretch("imgs/onloading.gif");
-    $(".slide2#thirth").backstretch("imgs/onloading.gif");
+    $(".slide2#first").backstretch("http://news.fudan.edu.cn/uploadfile/2016/0709/20160709104843714.jpg");
+    $(".slide2#sec").backstretch("http://news.fudan.edu.cn/uploadfile/2016/0707/20160707082428124.jpg");
+    $(".slide2#thirth").backstretch("http://news.fudan.edu.cn/uploadfile/2016/0622/20160622015300477.jpg");
 
     $('.slide2 .backstretch img').on('dragstart', function(event) { event.preventDefault(); });
 
