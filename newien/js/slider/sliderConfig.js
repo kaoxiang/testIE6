@@ -33,7 +33,7 @@ $(document).ready(function(){
     $(".slide#first").backstretch("files/slider/1920/2016129.jpg");
     $(".slide#sec").backstretch("files/slider/1920/2016128.jpg");
     $(".slide#thirth").backstretch("files/slider/1920/2016127.jpg");
-    $(".slide#fourth").backstretch("files/slider/1920/2016126.jpg");
+ /*   $(".slide#fourth").backstretch("files/slider/1920/2016126.jpg");*/
 	
 
     $('.slide .backstretch img').on('dragstart', function(event) { event.preventDefault(); });
